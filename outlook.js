@@ -1,5 +1,5 @@
 // 転送メール無効化通知を自動クローズ
-alert('Event Load!');
+console.log('Event Load!');
 
 // 監視ターゲットの取得
 const targetClass = 'ms-Button _23T7xmD47XsO8wwTa_w-ro ms-Button--icon _1HNQs-NWhKrh1Bs9Hh_iTS root-58';
