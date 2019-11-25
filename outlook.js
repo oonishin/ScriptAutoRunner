@@ -5,6 +5,13 @@ if (targetElements.length == 1){
   targetElements[0].parentNode.removeChild(targetElements[0]);
 }
 
+// List縦幅を22ｐｘ
+var targetClass = '_1xP-XmXM1GGHpRKCCeOKjP';
+var targetElements = document.getElementsByClassName(targetClass);
+var targetDivs = Array.prototype.filter.call(targetElements, function(targetElement){
+    return targetElement.style.height = '22px';
+});
+
 // 転送メール無効化通知を自動クローズ
   var close = function(){
     //console.log('Event Fire!');
