@@ -12,7 +12,7 @@ const observer = new MutationObserver(records => {
 })
 
 // 監視の開始
-observer.observe(target, {
+observer.observe(target[0], {
   attributes: true,
   childList: true
 })
