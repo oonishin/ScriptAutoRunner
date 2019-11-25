@@ -13,5 +13,6 @@ const observer = new MutationObserver(records => {
 
 // 監視の開始
 observer.observe(target, {
-  attributes: true
+  attributes: true,
+  childList: true
 })
