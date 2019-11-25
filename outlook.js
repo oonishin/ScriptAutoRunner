@@ -1,6 +1,13 @@
-// 転送メール無効化通知を自動クローズ
 console.log('Event Load!');
 
+// 受信トレイの欄を消す
+var targetClass = '_3oZkxfK_sfMuqvT6pZ7cT9 R13rCAdCs2xraNrPX7bVq _3dW5_u_jpraXm7_TFtLx1F';
+var targetElements = document.getElementsByClassName(targetClass);
+if (targetElements.length == 1){
+  targetElements[0].parentNode.removeChild(targetElements[0]);
+}
+
+// 転送メール無効化通知を自動クローズ
   var close = function(){
     console.log('Event Fire!');
     // 監視ターゲットの取得
