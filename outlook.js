@@ -1,4 +1,3 @@
-
 // 転送メール無効化通知を自動クローズ
 document.addEventListener("DOMContentLoaded", function() {
   console.log('Event Fire!');
