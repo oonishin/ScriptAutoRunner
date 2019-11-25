@@ -11,4 +11,4 @@ console.log('Event Load!');
     }
   }
 
-setTimeout(close, 3500);
+setTimeout(close, 5500);
