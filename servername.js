@@ -6,6 +6,6 @@ $.ajax({
     var serverName = xhr.getResponseHeader('Server');
     console.log(serverName);
     $("#imui-user-utility > li > a > span.ui-button-text").append(' ( ' + serverName + ')');
-    #$("#im-element-4 > div > div.im-hichee-side-menu-utility > ul > li > span.im-hichee-side-menu-utility-user-name").append(' (' + serverName + ')');
+    $("#im-element-4 > div > div.im-hichee-side-menu-utility > ul > li > span.im-hichee-side-menu-utility-user-name").append(' (' + serverName + ')');
   }
 });
